@@ -1,0 +1,44 @@
+body {
+  background: url(https://wallpaperfm.com/img/original/6/5/d/16852.jpg) no-repeat center center fixed;
+  background-size: 100%;
+}
+
+@keyframes intro {
+  0%{
+    opacity:0;
+  }
+  20%{
+    opacity:1;
+  }
+  90%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+.aLongTime {
+  font-family: monospace;
+  position:absolute;
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  top:30%;
+  left:20%;
+  color:#18B2B2;
+  animation: intro 6s ease-out 1s;
+  opacity: 0;
+}
+
+.imageStar img {
+  height:25%;
+  width:25%;
+  margin:auto;
+  display: block;
+}
+
+.textJ {
+  color: #FFFA0B;
+}
